@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              tools:context="com.example.st1drawermenu.Cart.CartActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/promotion6">
+    
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp"/>
+    
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:text="주문 리스트"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    
+        <ImageButton
+            android:id="@+id/btn_barket"
+            android:layout_width="30dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/wastebin"/>
+        
+    </LinearLayout>
+    <ListView
+        android:id="@+id/cart_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:choiceMode="multipleChoice"/>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:id="@+id/textprice"
+                android:layout_width="40dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_weight="4"
+                android:text="가격"
+                android:paddingLeft="200dp"
+                android:textColor="@color/bg_screen4"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            
+            <TextView
+                android:id="@+id/textprice1"
+                android:layout_width="40dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="원"
+                android:paddingRight="50dp"
+                android:textColor="@color/bg_screen4"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            
+            
+            
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            
+            <Button
+                android:id="@+id/btn_menuadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/bg_screen2"
+                android:textColor="#000000"
+                android:text="메뉴추가" />
+            
+            
+            <Button
+                android:id="@+id/btn_checking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/bg_screen4"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="결제하기" />
+        
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    

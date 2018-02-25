@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.st1drawermenu.LoginPackage.RegisterActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/promotion5"
+            android:gravity="center"
+            android:orientation="horizontal">
+    
+            <TextView
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="회원가입"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+    
+            <ImageView
+                android:id="@+id/btn_xmark"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/accessdenied1"/>
+
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center">
+            
+            <EditText
+                android:id="@+id/idText"
+                android:layout_width="190dp"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:hint=" 아이디"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/bg_screen11"/>
+    
+            <Button
+                android:id="@+id/validateButton"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/colorskyblue"
+                android:text="중복체크"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"/>
+            
+        </LinearLayout>
+        
+        
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:hint=" 비밀번호"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/bg_screen11"/>
+    
+        <EditText
+            android:id="@+id/storename"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:hint=" 상호 명"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:drawableStart="@drawable/ic_store_mall_directory_black_24dp"
+            android:drawableLeft="@drawable/ic_store_mall_directory_black_24dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/bg_screen11"/>
+    
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center">
+        
+            <EditText
+                android:id="@+id/mastername"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:hint=" 사업자 명"
+                
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_assignment_ind_black_24dp"
+                android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/bg_screen11"/>
+        
+            <EditText
+                android:id="@+id/birthday"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:hint="생년월일(6자리)"
+                android:textSize="13dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textAlignment="center"
+                android:drawableStart="@drawable/ic_cake_black_24dp"
+                android:drawableLeft="@drawable/ic_cake_black_24dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/bg_screen11"/>
+    
+    
+        </LinearLayout>
+        
+        <EditText
+                android:id="@+id/lisensnumber"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:hint=" 사업자번호 (숫자만 기입)"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_assignment_black_24dp"
+                android:drawableLeft="@drawable/ic_assignment_black_24dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/bg_screen11"/>
+    
+        <EditText
+            android:id="@+id/adress"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:hint=" 사업장주소"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:drawableStart="@drawable/ic_local_shipping_black_24dp"
+            android:drawableLeft="@drawable/ic_local_shipping_black_24dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/bg_screen11"/>
+    
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center">
+        
+            <EditText
+                android:id="@+id/business1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:hint=" 업태"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_assignment_late_black_24dp"
+                android:drawableLeft="@drawable/ic_assignment_late_black_24dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/bg_screen11"/>
+    
+            <EditText
+                android:id="@+id/business2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:hint=" 종목"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:drawableStart="@drawable/ic_assessment_black_24dp"
+                android:drawableLeft="@drawable/ic_assessment_black_24dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/bg_screen11"/>
+
+
+        </LinearLayout>
+    
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@color/bg_screen11"
+            android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+            android:drawableStart="@drawable/ic_phone_android_black_24dp"
+            android:hint=" 핸드폰번호 (숫자만 기입)"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"/>
+    
+        <EditText
+            android:id="@+id/emailText"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:hint=" 이메일(세금계산서용)"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/bg_screen11"/>
+    
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="280dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp">
+            
+            <RadioButton
+                android:id="@+id/genderWoman"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="여성"
+                android:layout_weight="1"
+                android:checked="true"/>
+             
+            <RadioButton
+                android:id="@+id/genderMan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="남성"
+                android:layout_weight="1"/>
+            
+        </RadioGroup>
+        
+        <Spinner
+            android:id="@+id/majorSpinner"
+            android:layout_width="280dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp">
+            
+        </Spinner>
+        
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@color/bg_screen8"
+            android:text="가입하기"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+       
+    
+    </LinearLayout>
+
+</RelativeLayout>

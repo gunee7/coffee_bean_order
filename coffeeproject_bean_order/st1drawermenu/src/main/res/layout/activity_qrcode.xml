@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.st1drawermenu.SubuMenu.QrcodeActivity">
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:id="@+id/btn_xmark2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="155dp"
+            app:srcCompat="@drawable/accessdenied1"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@color/bg_screen10"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+                
+             
+                <ImageView
+                    android:id="@+id/menu_image1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+                <ImageView
+                    android:id="@+id/menu_image2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+                <ImageView
+                    android:id="@+id/menu_image3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+                <ImageView
+                    android:id="@+id/menu_image4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+                <ImageView
+                    android:id="@+id/menu_image5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+            </LinearLayout>
+    
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:background="#ffffff"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+        
+        
+                <ImageView
+                    android:id="@+id/menu_image6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+                <ImageView
+                    android:id="@+id/menu_image7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/intromain_bean"/>
+                <ImageView
+                    android:id="@+id/menu_image8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/givecoffee"/>
+                <ImageView
+                    android:id="@+id/menu_image9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/givecoffee"/>
+                <ImageView
+                    android:id="@+id/menu_image10"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/givecoffee"/>
+            </LinearLayout>
+            
+            
+            
+        </LinearLayout>
+        
+        
+        <TextView
+            android:id="@+id/coffee_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="MY CARD"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slide_title1"
+            android:textStyle="bold"/>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="vertical">
+        
+        </LinearLayout>
+        
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="384dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/qrcode"/>
+    
+        
+        
+        <TextView
+            android:id="@+id/coffee_text1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2900원"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

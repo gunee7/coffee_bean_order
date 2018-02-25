@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.st1drawermenu.AppBar.AppBarBottomActivity">
+    
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_screen2"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@color/bg_screen10"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            
+            <ImageView
+                android:id="@+id/main_logo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/givecoffee"/>
+            
+            
+            <EditText
+                android:id="@+id/toolbar_edittext"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:layout_marginLeft="20dp"
+                android:background="@color/cardview_shadow_end_color"
+                android:hint="검색어를 입력하세요"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#A9A9A9"
+                android:visibility="invisible"/>
+            
+            <ImageView
+                android:id="@+id/coffee_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/coffeecup"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/search_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/magnifiertool"/>
+            
+            <ImageView
+                android:id="@+id/cart"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/shoppingcart"/>
+        
+        
+        </android.support.v7.widget.Toolbar>
+        
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/bg_screen12"
+            app:tabGravity="fill"
+            app:tabMode="fixed">
+        </android.support.design.widget.TabLayout>
+    
+    </android.support.design.widget.AppBarLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    
+    </android.support.v4.view.ViewPager>
+    
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation"/>
+
+</android.support.constraint.ConstraintLayout>

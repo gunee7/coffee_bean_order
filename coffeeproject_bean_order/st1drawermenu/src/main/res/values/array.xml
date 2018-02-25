@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>item 01</item>
+        <item>item 02</item>
+        <item>item 03</item>
+        <item>item 04</item>
+        <item>item 05</item>
+        <item>item 06</item>
+        <item>item 07</item>
+        <item>item 08</item>
+        <item>item 09</item>
+        <item>item 10</item>
+    </string-array>
+    
+    <string-array name="major">
+        <item>가정교육과</item>
+        <item>교육학과</item>
+        <item>국어교육과</item>
+        <item>기술교육과</item>
+        <item>독어교육과</item>
+        <item>물리교육과</item>
+        <item>불어교육과</item>
+        <item>유아교육과</item>
+        <item>역사교육과</item>
+        <item>영어교육과</item>
+    </string-array>
+    
+    <string-array name="year">
+        <item>2018년도</item>
+        <item>2019년도</item>
+        <item>2020년도</item>
+        <item>2021년도</item>
+        <item>2022년도</item>
+        <item>2023년도</item>
+        <item>2024년도</item>
+        <item>2025년도</item>
+    </string-array>
+    
+    
+    <string-array name="term">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+    </string-array>
+    
+    <string-array name="graduateArea">
+        <item>일반대학원</item>
+    </string-array>
+    
+    <string-array name="universityArea">
+        <item>교양및기타</item>
+        <item>전공</item>
+    </string-array>
+    
+    
+    <string-array name="graduateMajor">
+        <item>교육학공통</item>
+        <item>교육학과</item>
+        <item>교육행정</item>
+        <item>교육철학및교육사</item>
+        <item>교유심리</item>
+        <item>교육사회</item>
+        <item>교육공학</item>
+        <item>상담심리</item>
+        <item>특수교육</item>
+        <item>초등교육</item>
+        <item>유아교육</item>
+        <item>국어교육학과</item>
+        <item>초등교육학과</item>
+        <item>국어교육</item>
+        <item>한문교육</item>
+        <item>한국어교육</item>
+    </string-array>
+    
+    <string-array name="universityRefinementMajor">
+        <item>군사학</item>
+        <item>교직이론</item>
+        <item>교직소양</item>
+        <item>청량비전</item>
+        <item>청량중정(리더쉽)</item>
+        <item>청량중정(인성)</item>
+        <item>청량중정(국제화)</item>
+        <item>청량중정(역사와문화)</item>
+        <item>청량중정(스포츠와예술)</item>
+        <item>청량중정(과학과기술)</item>
+        <item>청량중정(수리와정보)</item>
+        <item>청량중정(교육기반이해)</item>
+        <item>초등교육학과</item>
+        <item>국어교육</item>
+        <item>한문교육</item>
+        <item>한국어교육</item>
+    </string-array>
+    
+    <string-array name="universityMajor">
+        <item>유아교육과</item>
+        <item>초등교육과</item>
+        <item>교육학과</item>
+        <item>국어교육과</item>
+        <item>영어교육과</item>
+        <item>독어교육과</item>
+        <item>불어교육과</item>
+        <item>중국어교육과</item>
+        <item>윤리교육과</item>
+        <item>일반사회교육과</item>
+        <item>지리교육과</item>
+        <item>역사교육과</item>
+        <item>공통사회교육과</item>
+    </string-array>
+    
+    
+    
+    
+    <string-array name="tab1_poor_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    <string-array name="tab1_hungry_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    <string-array name="tab1_orphan_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    <string-array name="tab1_widow_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    <string-array name="tab1_streeter_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    <string-array name="tab1_misionary_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    <string-array name="tab1_africachildren_text_name">
+        <item>가난한 자</item>
+        <item>배고픈 자</item>
+        <item>고아</item>
+        <item>과부</item>
+        <item>거리의 객</item>
+        <item>선교지</item>
+        <item>아프리카아이들</item>
+    </string-array>
+    
+    
+    <string-array name="tab1_poor">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_poorup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="tab1_hungry">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_hungryup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="tab1_orphan">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_orphanup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="tab1_widow">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_widowup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="tab1_streeter">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_streeterup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="tab1_misionary">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_misionaryup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="tab1_africachildren">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="tab1_africachildrenup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    <string-array name="menu_coffee_name">
+        <item>에스프레소 </item>
+        <item>꼰빠냐     </item>
+        <item>기브커피              </item>
+        <item>커피ICE          </item>
+        <item>카페라떼          </item>
+        <item>카페라떼ICE       </item>
+        <item>바닐라라떼        </item>
+        <item>바닐라라떼ICE     </item>
+        <item>카푸치노          </item>
+        <item>카푸치노ICE       </item>
+        <item>카페모카          </item>
+        <item>카페모카ICE       </item>
+        <item>화이트모카        </item>
+        <item>화이트모카ICE     </item>
+        <item>카라멜마끼아또    </item>
+        <item>카라멜마끼아또ICE </item>
+    </string-array>
+    
+    <string-array name="menu_latte_name">
+        <item>초코라떼</item>
+        <item>초코라떼_아이스</item>
+        <item>녹차라떼</item>
+        <item>녹차라떼_아이스</item>
+        <item>밀크티라떼</item>
+        <item>밀크티라떼_아이스</item>
+        <item>민트초코라떼</item>
+        <item>민트초코라떼_아이스</item>
+        <item>오곡라떼</item>
+        <item>오곡라떼_아이스</item>
+        <item>토피넛라떼</item>
+        <item>토피넛라떼_아이스</item>
+        <item>화이트초코라떼</item>
+        <item>화이트초코라떼_아이스</item>
+    </string-array>
+    
+    <string-array name="menu_beverage_name">
+        <item>딸기_스무디</item>
+        <item>블루베리_스무디</item>
+        <item>자몽_스무디</item>
+        <item>망고_스무디</item>
+        <item>플레인_요거트</item>
+        <item>딸기_요거트</item>
+        <item>블루베리_요거트</item>
+        <item>녹차_요거트</item>
+        <item>레몬_에이드</item>
+        <item>블루레몬_에이드</item>
+        <item>자몽_에이드</item>
+        <item>청포도_에이드</item>
+        <item>오렌지_쥬스</item>
+        <item>자몽_쥬스</item>
+        <item>망고_쥬스</item>
+        <item>파인애플_쥬스</item>
+        <item>자바초코칩_기브치노</item>
+        <item>히스모카_기브치노</item>
+        <item>민트초코칩_기브치노</item>
+        <item>녹차칩_기브치노</item>
+        <item>딸기_빙수</item>
+        <item>블루베리_빙수</item>
+        <item>망고_빙수</item>
+        <item>오곡_빙수</item>
+        <item>초코칩_빙수</item>
+    </string-array>
+    
+    <string-array name="menu_tea_name">
+        <item>캐모마일_TEA</item>
+        <item>페퍼민트_TEA</item>
+        <item>쟈스민_TEA</item>
+        <item>얼그레이_TEA</item>
+        <item>레몬_TEA</item>
+        <item>자몽_TEA</item>
+        <item>유자_TEA</item>
+        <item>대추_TEA</item>
+    </string-array>
+    
+    <string-array name="menu_sidemenu_name">
+        <item>초코머핀</item>
+        <item>블루베리머핀</item>
+        <item>캐롯머핀</item>
+        <item>얼그레이머핀</item>
+        <item>쮸끼니머핀</item>
+        <item>크로와상샌드위치</item>
+        <item>파니니샌드위치</item>
+        <item>파스트라미샌드위치</item>
+        <item>블루베리베이글</item>
+        <item>플레인베이글</item>
+        <item>애플시나몬_브레드</item>
+        <item>초코_브레드</item>
+        <item>햄치즈_브레드</item>
+        <item>오징어먹물_브레드</item>
+        <item>코코넛_브레드</item>
+        <item>요거트칩초코_브레드</item>
+        <item>얼그레이_파운드케익</item>
+        <item>피그_파운드케익</item>
+        <item>모카_파운드케익</item>
+        <item>오렌지_파운드케익</item>
+        <item>레몬_파운드케익</item>
+        <item>와인후르츠_파운드케익</item>
+        <item>치즈_쿠키</item>
+        <item>치즈초코렛_쿠키</item>
+        <item>초코렛_쿠키</item>
+        <item>크린베리_쿠키</item>
+        <item>다크베리_쿠키</item>
+        <item>모카_쿠키</item>
+        <item>피스타치오_쿠키</item>
+  
+        
+        
+        
+    </string-array>
+    
+    <string-array name="menupay_coffee">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_coffee_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+    </string-array>
+    
+    <string-array name="menupay_latte">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_latte_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+    </string-array>
+    
+    
+    <string-array name="menupay_beverage">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_beverage_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>4500</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_tea">
+    <item>2900</item>
+    <item>2900</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+    <item>3400</item>
+</string-array>
+    
+    <string-array name="menupay_tea_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+    
+    <string-array name="menupay_sidemenu">
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>2900</item>
+        <item>2900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3400</item>
+    </string-array>
+    
+    <string-array name="menupay_sidemenu_sizeup">
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3400</item>
+        <item>3400</item>
+        <item>3900</item>
+        <item>3900</item>
+        <item>3900</item>
+    </string-array>
+</resources>

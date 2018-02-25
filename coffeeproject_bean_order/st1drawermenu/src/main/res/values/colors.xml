@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#FF4081</color>
+    
+    <color name="colorPrimary2">#f96d99</color>
+    <color name="colorPrimaryDark2">#c65fa3</color>
+    <color name="colorAccent2">#f43a79</color>
+    <color name="colorAccentDark2">#ef0454</color>
+    
+    <color name="colorWarning">#f97fa8</color>
+    <color name="colorGray">#a4a2a2</color>
+    ]<color name="colorskyblue">#4ec7f2</color>
+    
+    <!-- Screen background colors -->
+    <color name="bg_screen1">#eea4f1</color>
+    <color name="bg_screen2">#f7f0f1</color>
+    <color name="bg_screen3">#6a71fd</color>
+    <color name="bg_screen4">#fd0307</color>
+    
+    <color name="bg_screen5">#f8cefa</color>
+    <color name="bg_screen6">#e473a6</color>
+    <color name="bg_screen7">#fda2d4</color>
+    <color name="bg_screen8">#c36364</color>
+    
+    
+    <color name="bg_screen9">#df94af</color>
+    <color name="bg_screen10">#61414d</color>
+    <color name="bg_screen11">#4c3c31</color>
+    <color name="bg_screen12">#331e1c</color>
+    
+    <color name="bg_screen13">#df94af</color>
+    <color name="bg_screen14">#61414d</color>
+    <color name="bg_screen15">#4c3c31</color>
+    <color name="bg_screen16">#331e1c</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="espresso"/>
+    <string-array name="espressoconpania"/>
+    <string-array name="hotcoffeehtml"/>
+    <string-array name="icecoffeehtml"/>
+    <string-array name="hotcafelatte"/>
+    <string-array name="icecafelatte"/>
+    <string-array name="hotbanilalatte"/>
+    <string-array name="icebanilalatte"/>
+    <string-array name="hotcapuchino"/>
+    <string-array name="icecapuchino"/>
+    <string-array name="hotcafemocha"/>
+    <string-array name="icecafemocha"/>
+    <string-array name="hotwhitechocomacha"/>
+    <string-array name="icewhitechocomacha"/>
+    <string-array name="hotcaramelmachato"/>
+    <string-array name="icecaramelmachato"/>
+    <string-array name="에스프레소"/>
+    <string-array name="꼰빠냐"/>
+    <string-array name="기브커피"/>
+    <string-array name="커피ICE"/>
+    <string-array name="카페라떼"/>
+    <string-array name="카페라떼ICE"/>
+    <string-array name="바닐라라떼"/>
+    <string-array name="바닐라라떼ICE"/>
+    <string-array name="카푸치노"/>
+    <string-array name="카푸치노ICE"/>
+    <string-array name="카페모카"/>
+    <string-array name="카페모카ICE"/>
+    <string-array name="화이트모카"/>
+    <string-array name="화이트모카ICE"/>
+    <string-array name="카라멜마끼아또"/>
+    <string-array name="카라멜마끼아또ICE"/>
+</resources>

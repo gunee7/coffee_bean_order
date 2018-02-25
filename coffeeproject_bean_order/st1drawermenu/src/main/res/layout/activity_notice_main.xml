@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    tools:context=".NavPackage.Notices.NoticeMainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/promotion9"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+    
+        <LinearLayout
+            android:id="@+id/layout_back"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="2dp">
+            
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:paddingStart="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp"/>
+       
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/text_Poor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btn_back"
+            android:layout_alignLeft="@id/btn_back"
+            android:layout_alignRight="@id/btn_back"
+            android:layout_alignTop="@id/btn_back"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="80dp"
+            android:text="공지사항/이벤트"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="sans">
+        </TextView>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+    
+        <Button
+            android:id="@+id/scheduleButton"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@color/bg_screen10"
+            android:text="공지 사항"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        
+    
+        <Button
+            android:id="@+id/statisticsButton"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:text="이벤트"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/bg_screen1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"/>
+    
+        <Button
+            android:id="@+id/courseButton"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:text="쿠폰함"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:background="@color/bg_screen1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"/>
+        
+    </LinearLayout>
+    
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+        <LinearLayout
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        
+            <ListView
+                android:id="@+id/noticeListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:dividerHeight="10dp"
+                android:divider="#ffffff">
+            </ListView>
+    
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+        </RelativeLayout>
+    
+    
+    </FrameLayout>
+    
+</LinearLayout>

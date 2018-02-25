@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fab" type="id"/>
+    <item name="espresso" type="id"/>
+    <item name="espressoconpania" type="id"/>
+    <item name="hotcoffeehtml" type="id"/>
+    <item name="icecoffeehtml" type="id"/>
+    <item name="hotcafelatte" type="id"/>
+    <item name="icecafelatte" type="id"/>
+    <item name="hotbanilalatte" type="id"/>
+    <item name="icebanilalatte" type="id"/>
+    <item name="hotcapuchino" type="id"/>
+    <item name="icecapuchino" type="id"/>
+    <item name="hotcafemocha" type="id"/>
+    <item name="icecafemocha" type="id"/>
+    <item name="hotwhitechocomacha" type="id"/>
+    <item name="icewhitechocomacha" type="id"/>
+    <item name="hotcaramelmachato" type="id"/>
+    <item name="icecaramelmachato" type="id"/>
+    <item name="menu_name_espresso" type="id"/>
+    <item name="menu_name_espressoconpania" type="id"/>
+    <item name="menu_name_hotcoffeehtml" type="id"/>
+    <item name="menu_name_icecoffeehtml" type="id"/>
+    <item name="menu_name_hotcafelatte" type="id"/>
+    <item name="menu_name_icecafelatte" type="id"/>
+    <item name="menu_name_hotbanilalatte" type="id"/>
+    <item name="menu_name_icebanilalatte" type="id"/>
+    <item name="menu_name_hotcapuchino" type="id"/>
+    <item name="menu_name_icecapuchino" type="id"/>
+    <item name="menu_name_hotcafemocha" type="id"/>
+    <item name="menu_name_icecafemocha" type="id"/>
+    <item name="menu_name_hotwhitechocomacha" type="id"/>
+    <item name="menu_name_icewhitechocomacha" type="id"/>
+    <item name="menu_name_hotcaramelmachato" type="id"/>
+    <item name="menu_name_icecaramelmachato" type="id"/>
+    <item name="btn_xmark" type="id"/>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    
+    <item android:title="Loginsetting">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login"
+                android:title="@string/drawer_menu_login"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/idcard"
+                android:title="@string/drawer_menu_register"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="@string/drawer_menu_logout"
+                android:visible="true"/>
+            <item
+                android:id="@+id/nav_memedit"
+                android:icon="@drawable/clipboard"
+                android:title="@string/drawer_menu_memedit"
+                android:visible="true" />
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/takeaway"
+                android:title="기브커피 HOME"
+                android:visible="true"/>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_notice"
+                android:icon="@drawable/icon"
+                android:title="공지사항"/>
+            <item
+                android:id="@+id/nav_event"
+                android:icon="@drawable/confetti"
+                android:title="이벤트"/>
+            <item
+                android:id="@+id/nav_coupon"
+                android:icon="@drawable/coupon"
+                android:title="쿠폰함"/>
+            <item
+                android:id="@+id/nav_board"
+                android:icon="@drawable/document"
+                android:title="커뮤니케이션"/>
+             
+            <item
+                android:id="@+id/nav_orderhistory"
+                android:icon="@drawable/buying"
+                android:title="주문내역"/>
+    
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/settingsgears"
+                android:title="설정"/>
+        </menu>
+    </item>
+</menu>

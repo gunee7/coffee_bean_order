@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.st1drawermenu.board.CommentInsertActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="닉네임 : "
+        android:id="@+id/textName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textName"
+        android:hint="닉네임 입력"
+        android:textSize="20dp"
+        android:id="@+id/edt_nick" />
+
+    <TextView
+        android:id="@+id/textMemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edt_nick"
+        android:text="내용"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edt_memo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textMemo"
+        android:hint="내용 입력"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_comment_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edt_memo"
+        android:layout_marginTop="76dp"
+        android:text="댓글 작성" />
+
+</RelativeLayout>

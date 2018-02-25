@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.st1drawermenu"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/givecoffee"
+        android:label="기브커피"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Intro.Splashscreen"
+            android:label="GIVE COFFEE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".LoginPackage.LoginActivity">
+        </activity>
+        <activity android:name=".Intro.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginPackage.RegisterActivity">
+        </activity>
+        <activity android:name=".SubuMenu.SubMenuActivity">
+        </activity>
+        <activity android:name=".Cart.CartActivity">
+        </activity>
+        <activity android:name=".SubuMenu.QrcodeActivity">
+        </activity>
+        <activity android:name=".AppBar.SearchActivity">
+        </activity>
+        <activity android:name=".NavPackage.Notices.NoticeMainActivity">
+        </activity>
+        <activity android:name=".Intro.IntroMainActivity">
+        </activity>
+        <activity android:name=".promotion.PromotionActivity">
+        </activity>
+        <activity android:name=".NavPackage.Event.EventActivity">
+        </activity>
+        <activity
+            android:name=".AppBar.AppBarBottomActivity"
+            android:label="@string/title_activity_app_bar_bottom">
+        </activity>
+        <activity android:name=".board.CommentInsertActivity">
+        </activity>
+        <activity android:name=".board.CommentActivity">
+        </activity>
+        <activity android:name=".board.ArticleListActivity">
+        </activity>
+    </application>
+
+</manifest>
